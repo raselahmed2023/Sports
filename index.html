@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockey</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Manrope:wght@400;500;600;700;800&family=Mulish:wght@400;600;700;800&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <style>
+        .font-manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="font-manrope ">
+    <header class="container mx-auto ">
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li class="text-[#FF4240]"><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Pages</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contract</a></li>
+
+                    </ul>
+                </div>
+                <a class="btn btn-ghost text-xl">Hockey<span class="text-[#FF4240]">'</span>s</a>
+            </div>
+            <div class="navbar-center hidden  lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li class="text-[#FF4240]"><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Pages</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contract</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <button class="btn btn-ghost btn-circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                </button>
+                <a class="btn bg-[#FF4240]">Get Ticket</a>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <!-- 1st section -->
+        <section class="container">
+            <div class="carousel lg:h-[550px] lg:w-[1170px] lg:ml-[170px] ">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="/images/1.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="/images/2.jpg" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- 1st section end -->
+        <!-- 2nd section -->
+        <section class=" mt-6 container">
+
+            <h1 class="text-3xl font-bold text-center">Professional Hockeys Club</h1>
+            <p class="text-center">Hockey is a national sport consider many country due to its popularity </p>
+
+            <div class=" mt-10 ml-[50px] gap-[90px] lg:ml-[200px] lg:gap-[60px] lg:flex align-centre">
+                <div>
+                    <div class="radial-progress text-error" style="--value:87;" role="progressbar">87%</div>
+                    <h1 class=" text-2xl font-semibold">Prayer Facility</h1>
+                    <p>Draw aside, take time out <br> and meet with God</p>
+
+                </div>
+                <div>
+                    <div class="radial-progress text-success" style="--value:95;" role="progressbar">95%</div>
+                    <h1 class=" text-2xl font-semibold">Experienced Coach</h1>
+                    <p>Obtaining a professional <br> coaching credential</p>
+                </div>
+
+                <div>
+                    <div class="radial-progress text-warning" style="--value:90;" role="progressbar">90%</div>
+                    <h1 class=" text-2xl font-semibold">Senior Player</h1>
+                    <p>Competition player who is over <br> the age eligible to play</p>
+                </div>
+
+                <div>
+                    <div class="radial-progress text-info" style="--value:80;" role="progressbar">80%</div>
+                    <h1 class=" text-2xl font-semibold">Training Ground</h1>
+                    <p>An area where people prepare <br> for sporting competitions</p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- 2nd section end -->
+
+        <!-- 3rd section  -->
+
+        <section class=" mt-10 container">
+            <h1 class="text-3xl font-bold text-center">Program Sections</h1>
+            <p class="text-center">There are many types of program we provide. Such as </p>
+
+            <div class="grid lg:grid-cols-2">
+
+                <div class="card lg:ml-[100px] mt-10 lg:w-[550px] bg-base-100 shadow-xl image-full">
+                    <figure><img src="/images/2.png" alt="" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title font-bold">Junior Program</h2>
+                        <p> In this program one can join with the age 6 to 10</p>
+                        <div class="card-actions justify-start">
+                            <button class="btn bg-[#c43330]">Register Now!</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card lg:w-[550px] mt-10 bg-base-100 shadow-xl image-full">
+                    <figure><img src="/images/3.png" alt="" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title font-bold">Teenager Program</h2>
+                        <p> In this program one can join with the age 12 to 18</p>
+                        <div class="card-actions justify-start">
+                            <button class="btn bg-[#c43330]">Register Now!</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" lg:ml-[100px] mt-10 card lg:w-[1180px] bg-base-100 shadow-xl image-full">
+                    <figure><img src="/images/4.png" alt="" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title font-bold">Professional Program</h2>
+                        <p> In this program one can join with the age 20 to 25</p>
+                        <div class="card-actions justify-start">
+                            <button class="btn bg-[#c43330]">Register Now!</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- 3rd section end -->
+
+        <!-- 4th  -->
+        <section class=" mt-10 container">
+            <h1 class=" text-3xl font-semibold text-center">Our New Products</h1>
+            <p class=" mt-1 text-center">New-to-the-world products essentially are new inventions that <br> create new
+                markets. Some examples from products recently introduced include</p>
+
+            <div class="grid lg:ml-[100px] lg:grid-cols-2 mt-3">
+                <div class="mt-2">
+                    <div class="card lg:card-side lg:w-[570px] bg-base-100 shadow-xl">
+                        <figure><img src="/images/5.png" alt="" /></figure>
+                        <div class="card-body">
+                            <div class="flex gap-6">
+                                <div class="flex gap-1">
+                                    <img src="/images/Frame.png" alt="">
+                                    <p>5.0</p>
+                                </div>
+                                <div class="flex gap-1">
+                                    <img src="/images/Frame (1).png" alt="">
+                                    <p>20</p>
+                                </div>
+                                <div class="flex gap-1">
+                                    <img src="/images/Frame (2).png" alt="">
+                                    <p>200</p>
+                                </div>
+
+                            </div>
+                            <h2 class="card-title">World Cup Flags Football</h2>
+                            <p>Exclusive Football Winter Dress.</p>
+                            <div class="flex">
+                                <div class="gap-1">
+                                    <h2 class="text-error">Price-$22.00</h2>
+                                </div>
+                                <div class="flex gap-2">
+                                    <img src="/images/Frame.svg" alt="">
+                                    <p>Delivery Fee : Free</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="card lg:w-[570px] lg:card-side bg-base-100 shadow-xl">
+                        <figure><img src="/images/6.png" alt="" /></figure>
+                        <div class="card-body">
+                            <div class="flex gap-6">
+                                <div class="flex gap-1">
+                                    <img src="/images/Frame.png" alt="">
+                                    <p>5.0</p>
+                                </div>
+                                <div class="flex gap-1">
+                                    <img src="/images/Frame (1).png" alt="">
+                                    <p>20</p>
+                                </div>
+                                <div class="flex gap-1">
+                                    <img src="/images/Frame (2).png" alt="">
+                                    <p>200</p>
+                                </div>
+
+                            </div>
+                            <h2 class="card-title">World Cup Flags Football</h2>
+                            <p>Exclusive Football Winter Dress.</p>
+                            <div class="flex">
+                                <div class="gap-1">
+                                    <h2 class="text-error">Price-$22.00</h2>
+                                </div>
+                                <div class="flex gap-2">
+                                    <img src="/images/Frame.svg" alt="">
+                                    <p>Delivery Fee : Free</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="card lg:w-[570px] lg:card-side bg-base-100 shadow-xl">
+                        <figure><img src="/images/7.png" alt="" /></figure>
+                        <div class="card-body">
+                            <div class="flex gap-6">
+                                <div class="flex gap-1">
+                                    <img src="/images/Frame.png" alt="">
+                                    <p>5.0</p>
+                                </div>
+                                <div class="flex gap-1">
+                                    <img src="/images/Frame (1).png" alt="">
+                                    <p>20</p>
+                                </div>
+                                <div class="flex gap-1">
+                                    <img src="/images/Frame (2).png" alt="">
+                                    <p>200</p>
+                                </div>
+
+                            </div>
+                            <h2 class="card-title">World Cup Flags Football</h2>
+                            <p>Exclusive Football Winter Dress.</p>
+                            <div class="flex">
+                                <div class="gap-1">
+                                    <h2 class="text-error">Price-$22.00</h2>
+                                </div>
+                                <div class="flex gap-2">
+                                    <img src="/images/Frame.svg" alt="">
+                                    <p>Delivery Fee : Free</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="card lg:w-[570px] lg:card-side bg-base-100 shadow-xl">
+                        <figure><img src="/images/8.png" alt="" /></figure>
+                        <div class="card-body">
+                            <div class="flex gap-6">
+                                <div class="flex gap-1">
+                                    <img src="/images/Frame.png" alt="">
+                                    <p>5.0</p>
+                                </div>
+                                <div class="flex gap-1">
+                                    <img src="/images/Frame (1).png" alt="">
+                                    <p>20</p>
+                                </div>
+                                <div class="flex gap-1">
+                                    <img src="/images/Frame (2).png" alt="">
+                                    <p>200</p>
+                                </div>
+
+                            </div>
+                            <h2 class="card-title">World Cup Flags Football</h2>
+                            <p>Exclusive Football Winter Dress.</p>
+                            <div class="flex">
+                                <div class="gap-1">
+                                    <h2 class="text-error">Price-$22.00</h2>
+                                </div>
+                                <div class="flex gap-2">
+                                    <img src="/images/Frame.svg" alt="">
+                                    <p>Delivery Fee : Free</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="card lg:w-[570px] lg:card-side bg-base-100 shadow-xl">
+                        <figure><img src="/images/9.png" alt="" /></figure>
+                        <div class="card-body">
+                            <div class="flex gap-6">
+                                <div class="flex gap-1">
+                                    <img src="/images/Frame.png" alt="">
+                                    <p>5.0</p>
+                                </div>
+                                <div class="flex gap-1">
+                                    <img src="/images/Frame (1).png" alt="">
+                                    <p>20</p>
+                                </div>
+                                <div class="flex gap-1">
+                                    <img src="/images/Frame (2).png" alt="">
+                                    <p>200</p>
+                                </div>
+
+                            </div>
+                            <h2 class="card-title">World Cup Flags Football</h2>
+                            <p>Exclusive Football Winter Dress.</p>
+                            <div class="flex">
+                                <div class="gap-1">
+                                    <h2 class="text-error">Price-$22.00</h2>
+                                </div>
+                                <div class="flex gap-2">
+                                    <img src="/images/Frame.svg" alt="">
+                                    <p>Delivery Fee : Free</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="card lg:w-[570px] lg:card-side bg-base-100 shadow-xl">
+                        <figure><img src="/images/10.png" alt="" /></figure>
+                        <div class="card-body">
+                            <div class="flex gap-6">
+                                <div class="flex gap-1">
+                                    <img src="/images/Frame.png" alt="">
+                                    <p>5.0</p>
+                                </div>
+                                <div class="flex gap-1">
+                                    <img src="/images/Frame (1).png" alt="">
+                                    <p>20</p>
+                                </div>
+                                <div class="flex gap-1">
+                                    <img src="/images/Frame (2).png" alt="">
+                                    <p>200</p>
+                                </div>
+
+                            </div>
+                            <h2 class="card-title">World Cup Flags Football</h2>
+                            <p>Exclusive Football Winter Dress.</p>
+                            <div class="flex">
+                                <div class="gap-1">
+                                    <h2 class="text-error">Price-$22.00</h2>
+                                </div>
+                                <div class="flex gap-2">
+                                    <img src="/images/Frame.svg" alt="">
+                                    <p>Delivery Fee : Free</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- section end 4th -->
+
+        <!-- 5th section -->
+
+        <section class=" container text-center mt-10">
+
+            <div class="text-center">
+                <h2 class="text-3xl font-semibold">Clients Question</h2>
+                <p>Many clients may ask various types Question</p>
+            </div>
+            <div class=" lg:flex mt-5">
+                <div>
+                    <img class=" lg:w-[440px] h-[480px]" src="/images/11.png" alt="">
+                </div>
+                <div>
+                    <div class=" collapse collapse-plus bg-base-200">
+                        <input type="radio" name="my-accordion-2" checked="checked" />
+                        <div class="collapse-title text-xl font-medium">
+                            Our Equipment
+                        </div>
+                        <div class="collapse-content">
+                            <p>Day by day it is updating</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus bg-base-200">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title text-xl font-medium">
+                            Hockey Training
+                        </div>
+                        <div class="collapse-content">
+                            <p>New Trainer is available here</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus bg-base-200">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title text-xl font-medium">
+                            Private Lessons
+                        </div>
+                        <div class="collapse-content">
+                            <p>Ones always needed for better performance</p>
+                        </div>
+                    </div>
+
+                    <div class="collapse collapse-plus bg-base-200">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title text-xl font-medium">
+                            Ski Touring
+                        </div>
+                        <div class="collapse-content">
+                            <p>Only for Viator</p>
+                        </div>
+                    </div>
+
+                    <div class="collapse collapse-plus bg-base-200">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title text-xl font-medium">
+                            Booking
+                        </div>
+                        <div class="collapse-content">
+                            <p>Available</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus bg-base-200">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title text-xl font-medium">
+                            Pricings
+                        </div>
+                        <div class="collapse-content">
+                            <p>Best Prices</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 5th section end -->
+
+
+
+
+        <!-- last seection -->
+
+        <section class=" mt-10 p-10 bg-base-200 text-base-content">
+            <h2 class=" text-center font-bold">Social Media</h2>
+            <div class=" container lg:ml-[650px] mt-3">
+                <img  src="/images/Social.png" alt="">
+            </div>
+        </section>
+
+        <!-- last section end -->
+
+    </main>
+    <footer class=" container mt-10">
+
+        <footer class="footer p-10 bg-neutral text-neutral-content">
+            <aside>
+                <h2 class="text-3xl font-semibold">Get In Touch</h2>
+                <p> We are establishing communication with <br> you for better Services.</p>
+                <div class="flex gap-2">
+                    <img src="/images/Fra.png" alt="">
+                    <p>hockeys@support.com</p>
+                </div>
+                <div class="flex gap-2">
+                    <img src="/images/Fr (1).png" alt="">
+                    </p>(+62) 123-321-543></p>
+                </div>
+            </aside>
+            <nav>
+                <header class="footer-title">Company</header>
+                <a class="link link-hover">About us</a>
+                <a class="link link-hover">Leadership</a>
+                <a class="link link-hover">Careers</a>
+                <a class="link link-hover">News & Article</a>
+                <a class="link link-hover">Legal Notice</a>
+            </nav>
+            <nav>
+                <header class="footer-title">Support</header>
+                <a class="link link-hover">Help Center</a>
+                <a class="link link-hover">FAQ</a>
+                <a class="link link-hover">Ticket Support</a>
+                <a class="link link-hover">Contact Us</a>
+            </nav>
+            <nav>
+                <header class="footer-title">Services</header>
+                <a class="link link-hover">Academy</a>
+                <a class="link link-hover"> Group Lesson</a>
+                <a class="link link-hover">Private Lesson</a>
+                <a class="link link-hover">Hockeys for kids</a>
+                <a class="link link-hover">Hockeys for Adult</a>
+            </nav>
+        </footer>
+
+    </footer>
+
+</body>
+
+</html>
